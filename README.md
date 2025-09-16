@@ -71,7 +71,7 @@
 
 ## 專案截圖
 
-face_effect_player_low_res.gif
+![](https://github.com/vegetablechicken5437/Face-Effect-Player/face_effect_player_low_res.gif)
 
 -----
 
