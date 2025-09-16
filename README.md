@@ -28,7 +28,7 @@
 1.  **複製專案**：
 
     ```bash
-    git clone https://github.com/your-username/face-effect-player.git
+    git clone https://github.com/vegetablechicken5437/face-effect-player.git
     cd face-effect-player
     ```
 
@@ -71,7 +71,7 @@
 
 ## 專案截圖
 
-(你可以在這裡插入專案執行時的圖片或 GIF 檔案)
+https://github.com/user-attachments/assets/9eac3461-9138-49cc-afe9-d0865ffee69f
 
 -----
 
