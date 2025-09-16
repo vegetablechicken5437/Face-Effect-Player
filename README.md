@@ -71,7 +71,7 @@
 
 ## 專案截圖
 
-https://github.com/user-attachments/assets/9eac3461-9138-49cc-afe9-d0865ffee69f
+face_effect_player_low_res.gif
 
 -----
 
