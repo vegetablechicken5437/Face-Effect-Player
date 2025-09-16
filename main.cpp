@@ -1,4 +1,4 @@
-/*作業4: 人臉區域特效處理 (提示)*/
+/*人臉區域特效處理 (提示)*/
 #include "opencv2/opencv.hpp"
 #include <iostream>
 #include <time.h>
@@ -70,6 +70,7 @@ int main( void )
             printf(" --(!) No captured im -- Break!");  //顯示錯誤訊息
             break;
         }
+		flip(im, im, 1);
 		//定義視窗名稱 namedWindow
 		namedWindow("window");
 
@@ -257,8 +258,6 @@ void detectAndDisplay(void)
 		}
 
 		/* 繪製人臉區域矩形框，以及上方的學號 */
-		putText(im, "M11225001", Point(faceROI.x+2, faceROI.y-20+2), FONT_HERSHEY_COMPLEX | FONT_ITALIC, 1, CV_RGB(0, 0, 0), 1, LINE_AA);
-		putText(im, "M11225001", Point(faceROI.x, faceROI.y-20), FONT_HERSHEY_COMPLEX | FONT_ITALIC, 1, CV_RGB(255, 255, 0), 1, LINE_AA);
 		rectangle(im, Point(faceROI.x + 2, faceROI.y + 2), Point(faceROI.x + faceROI.width + 2, faceROI.y + faceROI.height + 2), CV_RGB(0, 0, 0), 3);
 		rectangle(im, Point(faceROI.x, faceROI.y), Point(faceROI.x+faceROI.width, faceROI.y + faceROI.height), CV_RGB(255, 255, 0), 3); //請參考 cv_31 rectangle.cpp, cv_38 putText.cpp
 }
