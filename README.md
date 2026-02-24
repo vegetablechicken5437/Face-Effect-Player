@@ -69,18 +69,5 @@
 
 -----
 
-## 專案截圖
-
 https://github.com/user-attachments/assets/18aa9a61-7461-4bc8-a3ca-61a0eecaed25
 
------
-
-## 貢獻指南
-
-歡迎所有形式的貢獻！如果你對這個專案有任何想法或想改進的地方，請隨時提出 Pull Request。
-
------
-
-## 授權
-
-這個專案遵循 **MIT 授權**。
